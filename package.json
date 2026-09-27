@@ -1,0 +1,37 @@
+{
+  "name": "nutrition-math",
+  "version": "1.0.0",
+  "description": "Calories and macros from your own body data. Mifflin-St Jeor, safe deficit, honest warnings. Zero dependencies, tested.",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "prepublishOnly": "node --test test/"
+  },
+  "keywords": [
+    "калории",
+    "макросы",
+    "tdee",
+    "bmr",
+    "дефицит",
+    "питание",
+    "енергия"
+  ],
+  "license": "MIT",
+  "author": "iboshka24",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iboshka24/nutrition-math.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iboshka24/nutrition-math/issues"
+  },
+  "homepage": "https://github.com/iboshka24/nutrition-math#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
